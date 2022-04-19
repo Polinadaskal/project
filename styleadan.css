@@ -1,0 +1,35 @@
+body{
+    background-color: white;
+}
+header {
+  display: grid;
+  column-gap: 10px;
+  row-gap: 10px;
+  grid-template-columns: repeat(11, 200px);
+  grid-template-rows: repeat(10, 200px)
+}
+div.inf {
+background-color: rgb(46, 46, 46);
+grid-column: 2/9;
+grid-row: 1/11;
+
+}
+p.a {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: white;
+padding: 20px;
+font-size: 35px;
+text-align: center;
+}
+ol {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ color: white;
+ padding: 20px; 
+ font-size: 25px;  
+}
+p.b {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: white;
+padding: 20px;  
+font-size: 25px;
+}
